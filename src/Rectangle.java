@@ -10,7 +10,7 @@ public class Rectangle implements Shape {
 
     @Override
     public boolean contains(Point p) {
-        return false;
+        return ((topLeftCorner.getX() +width) >= p.getX() && (topLeftCorner.getY() - height) <= p.getY()&& p.getX() >= topLeftCorner.getX() && p.getY() <= topLeftCorner.getY());
     }
 
     @Override
