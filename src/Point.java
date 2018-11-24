@@ -18,11 +18,11 @@ final public class Point {
     }
 
     public double distance(Point p){
-        return Math.sqrt(Math.pow(this.x - p.x, 2) + Math.pow(this.y - p.y, 2));
+        return Math.sqrt(Math.pow(p.getX() - this.getX(), 2) + Math.pow(p.getY() - this.getY(), 2));
     }
 
     public Point move(int dx, int dy){
-        return new Point(this.x + dx, this.y + dy);
+        return new Point(this.getX() + dx, this.getY() + dy);
     }
 
     @Override

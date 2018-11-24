@@ -8,8 +8,8 @@ public class PointTest {
     public void testDistance() {
         Point p1 = new Point(1,2);
         Point p2 = new Point(2,4);
-        double dist = 73.00;
-        assertEquals(p1.distance(p2),is(dist));
+        double dist = Math.sqrt(5.0);
+        assertEquals(dist,p1.distance(p2),0);
 
     }
 
@@ -18,7 +18,7 @@ public class PointTest {
         Point p = new Point(3,5);
         int dx = 1;
         int dy = 8;
-        assertEquals(p.move(dx,dy),is(new Point(4,13)));
+        assertEquals(new Point(4,13),p.move(dx,dy));
     }
 
     @Test
