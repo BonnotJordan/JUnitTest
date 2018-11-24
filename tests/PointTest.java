@@ -24,9 +24,8 @@ public class PointTest {
 
     @Test
     public void testEquals() {
-        Point p1 = new Point(2,5);
-        Point p2 = new Point(2,7);
-        assertFalse(p1==p2);
+        Point p = new Point(1,1);
+        assertEquals(false,equals(new Point(4,2)));
     }
 
     @Test
