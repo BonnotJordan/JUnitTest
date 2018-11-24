@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac0b17b1-41b6-46f0-bf72-6fdf0ec30d25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/PointTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ac0b17b1-41b6-46f0-bf72-6fdf0ec30d25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/tests/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="446">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,7 +143,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543071997604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543072355548" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -245,14 +243,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543066660227</updated>
-      <workItem from="1543066668215" duration="4452000" />
+      <workItem from="1543066668215" duration="4809000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PointTest_testDistance - 2018.11.24 at 15h 02m 07s.xml">
-      <configuration name="PointTest.testDistance" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PointTest_testDistance - 2018.11.24 at 15h 04m 19s.xml">
       <configuration name="PointTest.testDistance" configurationId="JUnit" />
     </history-entry>
@@ -280,12 +275,15 @@
     <history-entry file="RectangleTest_contains - 2018.11.24 at 15h 59m 24s.xml">
       <configuration name="RectangleTest.contains" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PointTest_testEquals - 2018.11.24 at 16h 06m 40s.xml">
+      <configuration name="PointTest.testEquals" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4452000" />
+    <option name="totallyTimeSpent" value="4809000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -374,7 +372,7 @@
     <entry file="file://$PROJECT_DIR$/tests/PointTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
